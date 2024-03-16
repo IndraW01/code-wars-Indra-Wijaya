@@ -1,12 +1,12 @@
 const sequenceSum = (begin, end, step) => {
   // May the Force be with you
-  if (start > end) {
+  if (begin > end) {
     return 0;
   }
 
   let sum = 0;
   // Mulai dari nilai mulai, lalu tambahkan dengan langkah hingga mencapai atau melewati nilai akhir
-  for (let i = start; i <= end; i += step) {
+  for (let i = begin; i <= end; i += step) {
     sum += i;
   }
 
