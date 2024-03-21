@@ -15,5 +15,5 @@ function sumDigits(number) {
 
 }
 
-console.log(sumDigits(10));
+
 // console.log(sumDigits(99));
