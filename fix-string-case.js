@@ -17,3 +17,4 @@ function solve(s) {
 console.log(solve('code'));
 console.log(solve('CODe'));
 console.log(solve('COde'));
+console.log(solve('COdE'));
