@@ -20,4 +20,4 @@ function minValue(values) {
 console.log(minValue([1, 3, 1]));
 console.log(minValue([4, 7, 5, 7]));
 
-// console.log(minValue([3, 6, 5, 5, 9, 8, 7, 6, 3, 5, 9]));
+console.log(minValue([3, 6, 5, 5, 9, 8, 7, 6, 3, 5, 9]));
