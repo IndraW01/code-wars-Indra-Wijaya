@@ -1,6 +1,6 @@
 function removeRotten(bagOfFruits) {
   // ...
-  if (bagOfFruits.length < 1) return [];
+  if (bagOfFruits == null || bagOfFruits.length < 1) return [];
 
   return bagOfFruits.map(val => {
     if (val.includes('rotten')) {
