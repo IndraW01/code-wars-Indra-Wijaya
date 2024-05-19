@@ -1,6 +1,5 @@
 function add(n) {
   return function (i) {
-    console.log(i)
     return n + i;
   }
 }
